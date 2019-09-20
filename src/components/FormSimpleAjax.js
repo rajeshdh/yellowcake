@@ -94,7 +94,7 @@ class Form extends React.Component {
               <span>Lastname</span>
             </label>
           </div>
-          <fieldset>
+          {/* <fieldset>
             <label className="Form--Label Form--Radio">
               <input
                 className="Form--RadioInput"
@@ -114,7 +114,7 @@ class Form extends React.Component {
               />
               <span>Female</span>
             </label>
-          </fieldset>
+          </fieldset> */}
           <label className="Form--Label">
             <input
               className="Form--Input Form--InputText"
@@ -160,7 +160,7 @@ class Form extends React.Component {
           </label>
           <div
             className="g-recaptcha"
-            data-sitekey="6LfKN3kUAAAAAGIM1CbXmaRZx3LIh_W2twn1tzkA"
+            data-sitekey="6LcKgbkUAAAAAP2eh9LM7X9tGLTRJydpr2Z2syCG"
           />
           {!!subject && <input type="hidden" name="subject" value={subject} />}
           <input type="hidden" name="form-name" value={name} />
