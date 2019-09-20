@@ -8,7 +8,7 @@ import './Form.css'
 class Form extends React.Component {
   static defaultProps = {
     name: 'Simple Form Ajax',
-    subject: 'Enquire', // optional subject of the notification email
+    subject: '', // optional subject of the notification email
     action: '',
     successMessage: 'Thanks for your enquiry, we will get back to you soon',
     errorMessage:
@@ -31,15 +31,13 @@ class Form extends React.Component {
       method: 'POST'
     })
       .then(res => {
-        console.log(res)
         if (res.ok) {
           return res
         } else {
           throw new Error('Network error')
         }
       })
-      .then((data) => {
-        console.log(data)
+      .then(() => {
         form.reset()
         this.setState({
           alert: this.props.successMessage,
@@ -67,7 +65,7 @@ class Form extends React.Component {
           className="Form"
           name={name}
           action={action}
-          // onSubmit={this.handleSubmit}
+          onSubmit={this.handleSubmit}
           data-netlify="true"
           netlify-recaptcha=""
         >
@@ -170,7 +168,7 @@ class Form extends React.Component {
             className="Button Form--SubmitButton"
             type="submit"
             value="Enquire"
-            // disabled={this.state.disabled}
+            disabled={this.state.disabled}
           />
         </form>
       </Fragment>
