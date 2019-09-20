@@ -2,7 +2,7 @@
 template: HomePage
 slug: ''
 title: Hi I'm Rajesh Dhiman.
-featuredImage: 'https://ucarecdn.com/159203d3-881d-4218-baa1-ca4427b48d0d/'
+featuredImage: 'https://ucarecdn.com/d4315217-b7f7-4c26-87f6-bd6c55c0f860/'
 subtitle: ' I am a developer specializing in building useful things with Node.js, mongodb and react.js.'
 meta:
   description: This is a meta description.
