@@ -31,13 +31,15 @@ class Form extends React.Component {
       method: 'POST'
     })
       .then(res => {
+        console.log(res)
         if (res.ok) {
           return res
         } else {
           throw new Error('Network error')
         }
       })
-      .then(() => {
+      .then((data) => {
+        console.log(data)
         form.reset()
         this.setState({
           alert: this.props.successMessage,
@@ -66,7 +68,7 @@ class Form extends React.Component {
           name={name}
           action={action}
           onSubmit={this.handleSubmit}
-          data-netlify=""
+          data-netlify="true"
           netlify-recaptcha=""
         >
           {this.state.alert && (
