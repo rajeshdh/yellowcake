@@ -58,16 +58,16 @@ class Form extends React.Component {
 
     return (
       <Fragment>
-        <Helmet>
+        {/* <Helmet>
           <script src="https://www.google.com/recaptcha/api.js" />
-        </Helmet>
+        </Helmet> */}
         <form
           className="Form"
           name={name}
           action={action}
           onSubmit={this.handleSubmit}
           data-netlify="true"
-          netlify-recaptcha=""
+          netlify-recaptcha="true"
         >
           {this.state.alert && (
             <div className="Form--Alert">{this.state.alert}</div>
@@ -158,10 +158,10 @@ class Form extends React.Component {
             />
             <span>Get news updates</span>
           </label>
-          <div
+          {/* <div
             className="g-recaptcha"
             data-sitekey="6LdBjbkUAAAAAGSZ23srlDJTPtF2dzNwL7V_agNN"
-          />
+          /> */}
           {!!subject && <input type="hidden" name="subject" value={subject} />}
           <input type="hidden" name="form-name" value={name} />
           <input
