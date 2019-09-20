@@ -1,7 +1,7 @@
 ---
 template: ContactPage
 slug: contact
-title: Contact Page
+title: Contact
 featuredImage: https://ucarecdn.com/e22a858a-b420-47af-99f6-ed54b6860333/
 subtitle: This is the contact page subtitle.
 address: '404 James St, Burleigh Heads QLD 4220'
@@ -12,10 +12,12 @@ locations:
     lng: '153.2432449'
     mapLink: ''
 meta:
-  description: This is a meta description.
-  title: Contact Page
+  description: Leave me a message here and I will try to get back to you as soon as possible.
+  title: Contact
 ---
 
 # Example contact form
 
-For a quicker reply send me a dm on  [Twitter](https://twitter.com/paharihacker/).
+Leave me a message here and I will try to get back to you as soon as possible.
+
+For a quicker reply send me a message/tweet on  [Twitter](https://twitter.com/paharihacker/).
