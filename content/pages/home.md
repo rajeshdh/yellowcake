@@ -2,7 +2,7 @@
 template: HomePage
 slug: ''
 title: Hi I'm Rajesh Dhiman
-featuredImage: 'https://ucarecdn.com/6a3729b3-4b42-4c45-98ff-e7bc51d3f08a/'
+featuredImage: 'https://ucarecdn.com/f8eb3b88-8ea6-4f7f-9ba7-46374ffdb2f5/'
 subtitle: 'A Full-Stack developer from Himachal Pradesh, India.'
 meta:
   description: >-
