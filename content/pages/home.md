@@ -2,10 +2,12 @@
 template: HomePage
 slug: ''
 title: Hi I'm Rajesh Dhiman
-featuredImage: 'https://ucarecdn.com/d4315217-b7f7-4c26-87f6-bd6c55c0f860/'
+featuredImage: 'https://ucarecdn.com/6a3729b3-4b42-4c45-98ff-e7bc51d3f08a/'
 subtitle: 'A Full-Stack developer from Himachal Pradesh, India.'
 meta:
-  description: I am a web developer specializing in building useful things with Node.js, mongodb and react.js..
+  description: >-
+    I am a web developer specializing in building useful things with Node.js,
+    mongodb and react.js..
   title: Full-Stack Web Developer
 ---
  I am a full-stack web developer who is passionate about designing and implementing scalable and maintainable web applications/services with the TDD/BDD approach.
