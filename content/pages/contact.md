@@ -2,7 +2,7 @@
 template: ContactPage
 slug: contact
 title: Contact
-featuredImage: https://ucarecdn.com/e22a858a-b420-47af-99f6-ed54b6860333/
+featuredImage: 'https://ucarecdn.com/10fbcd0c-5518-4370-82b3-645daf30cab8/'
 subtitle: This is the contact page subtitle.
 address: '404 James St, Burleigh Heads QLD 4220'
 phone: 0987 123 456
@@ -12,7 +12,9 @@ locations:
     lng: '153.2432449'
     mapLink: ''
 meta:
-  description: Leave me a message here and I will try to get back to you as soon as possible.
+  description: >-
+    Leave me a message here and I will try to get back to you as soon as
+    possible.
   title: Contact
 ---
 
