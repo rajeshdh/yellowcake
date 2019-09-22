@@ -6,8 +6,7 @@ featuredImage: 'https://ucarecdn.com/3e4441b0-100b-4e09-b27b-ad83f2ef5421/'
 subtitle: 'A Full-Stack developer from Himachal Pradesh, India.'
 meta:
   description: >-
-    I am a web developer specializing in building useful things with Node.js,
-    mongodb and react.js..
+    I am a full-stack web developer who is passionate about designing and implementing scalable and maintainable web applications/services with the TDD/BDD approach.
   title: Full-Stack Web Developer
 ---
  I am a full-stack web developer who is passionate about designing and implementing scalable and maintainable web applications/services with the TDD/BDD approach.
