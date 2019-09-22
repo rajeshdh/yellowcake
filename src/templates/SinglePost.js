@@ -6,12 +6,17 @@ import { ChevronLeft } from 'react-feather'
 
 import Content from '../components/Content'
 import Layout from '../components/Layout'
+import SocialShare from '../components/SocialShare';
+
 import './SinglePost.css'
 
 export const SinglePostTemplate = ({
   title,
   date,
   body,
+  frontmatter,
+  slug,
+  siteUrl,
   nextPostURL,
   prevPostURL,
   categories = []
@@ -63,7 +68,9 @@ export const SinglePostTemplate = ({
           <div className="SinglePost--InnerContent">
             <Content source={body} />
           </div>
-
+          <div>
+            <SocialShare frontmatter={frontmatter} siteUrl={'https://rajeshdhiman.in'} slug={slug}/>
+          </div>
           <div className="SinglePost--Pagination">
             {prevPostURL && (
               <Link
@@ -100,6 +107,7 @@ const SinglePost = ({ data: { post, allPosts } }) => {
         {...post}
         {...post.frontmatter}
         body={post.html}
+        slug={post.fields.slug}
         nextPostURL={_get(thisEdge, 'next.fields.slug')}
         prevPostURL={_get(thisEdge, 'previous.fields.slug')}
       />
@@ -119,6 +127,9 @@ export const pageQuery = graphql`
       ...Meta
       html
       id
+      fields {
+        slug
+      }
       frontmatter {
         title
         template
