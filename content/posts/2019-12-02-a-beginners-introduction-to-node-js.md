@@ -1,7 +1,7 @@
 ---
 template: SinglePost
 title: A Beginner's introduction to Node.js
-status: Published
+status: Featured
 date: 2019-12-02T15:48:04.969Z
 featuredImage: 'https://ucarecdn.com/2b6bf224-854d-4d1b-aeae-f98fac229b27/'
 excerpt: >-
@@ -22,6 +22,7 @@ meta:
     features. So that JavaScript can have both DOM operation (browser) and I/O,
     file reading and writing, database (server-side) and other capabilities, to
     make it the most straightforward full-stack language.
+  noindex: false
   title: A Beginner's introduction to Node.js
 ---
 
