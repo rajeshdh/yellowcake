@@ -8,6 +8,8 @@ excerpt: >-
   health, personal life or professional life.So as a part of the process, I am
   starting  #30daysofvue challenge from today. For 30 days, I'll dedicate some
   time daily to learn Vue js and will write down my learning on my blog. 
+categories:
+  - category: Javascript
 meta:
   description: >-
     My new year resolution is to be a better version of myself. Be it in terms
