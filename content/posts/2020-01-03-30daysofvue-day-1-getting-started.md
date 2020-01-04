@@ -19,11 +19,7 @@ meta:
     Approachable, Versatile and Performant.
   title: Getting started to Vue Js
 ---
-> From the view 
->
-> [docs](https://vuejs.org/v2/guide/)
->
-> :
+> From the view[ docs](https://vuejs.org/v2/guide/) :
 >
 > Vue (pronounced /vjuː/, like view) is a progressive framework for building user interfaces.
 
