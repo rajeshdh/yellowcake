@@ -1,6 +1,6 @@
 ---
 template: SinglePost
-title: '#30daysofVue - Day 2 - Vue Instace - Data'
+title: '#30daysofVue - Day 2 - Vue Instance - Data'
 status: Published
 date: 2020-01-04T17:21:09.454Z
 excerpt: >-
