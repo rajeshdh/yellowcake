@@ -14,6 +14,8 @@ excerpt: >-
   the Vue library creates getters and setters on that property. These setters
   and getters work under the hood to track the data properties and cause the
   template to re-render when a change has been made.
+categories:
+  - category: Javascript
 meta:
   description: >-
     Today I learned about reactivity in VueJs, and I'll explore it more tomorrow
