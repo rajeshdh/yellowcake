@@ -6,6 +6,8 @@ date: 2020-01-14T16:53:40.229Z
 excerpt: >-
   Today I learned about Vue global components. We can register our components
   that we need globally in our app. 
+categories:
+  - category: Javascript
 meta:
   description: >-
     Today I learned about Vue global components. We can register our components
