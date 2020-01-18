@@ -24,7 +24,7 @@ meta:
 
     Vue custom events are used primarily for communication between components as
     opposed to communication between DOM nodes. 
-  title: '#30daysofVue - Day 14 - Single File Components'
+  title: '#30daysofVue - Day 16 - Single File Components'
 ---
 Single File Components allow us to define the HTML/CSS and JS of a component all within a single .vue file. 
 
