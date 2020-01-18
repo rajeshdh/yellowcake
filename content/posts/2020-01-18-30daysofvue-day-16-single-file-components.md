@@ -4,26 +4,22 @@ title: '#30daysofVue - Day 16 - Single File Components'
 status: Published
 date: 2020-01-18T17:16:04.050Z
 excerpt: >-
-  Props are the traditional way to pass data from parent to child but what to do
-  when we need to pass data from the child back to the parent.
+  Single File Components allow us to define the HTML/CSS and JS of a component
+  all within a single .vue file. A single-file component is composed of three
+  parts: 
 
-  We can use custom events to pass data from child to parent. Custom events are
-  like javascript events, but there is one distinction. 
-
-  Vue custom events are used primarily for communication between components as
-  opposed to communication between DOM nodes. 
+  The <template> section which contains the component’s markup in plain HTML.The
+  <script> section which contains all the JS logic within that component. The
+  <style> section which contains all the component styles. 
 categories:
   - category: Javascript
 meta:
   description: >
-    Props are the traditional way to pass data from parent to child but what to
-    do when we need to pass data from the child back to the parent.
-
-    We can use custom events to pass data from child to parent. Custom events
-    are like javascript events, but there is one distinction. 
-
-    Vue custom events are used primarily for communication between components as
-    opposed to communication between DOM nodes. 
+    Single File Components allow us to define the HTML/CSS and JS of a component
+    all within a single .vue file. A single-file component is composed of three
+    parts: The <template> section which contains the component’s markup in plain
+    HTML.The <script> section which contains all the JS logic within that
+    component. The <style> section which contains all the component styles. 
   title: '#30daysofVue - Day 16 - Single File Components'
 ---
 Single File Components allow us to define the HTML/CSS and JS of a component all within a single .vue file. 
