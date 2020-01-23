@@ -8,6 +8,8 @@ excerpt: >-
   install vuex —saveFor module based Webpack Vue applications, global level
   functionality (i.e. plugins) like Vuex need to be called with the Vue.use()
   global method before its use. 
+categories:
+  - category: Javascript
 meta:
   description: >-
     Vuex is an external library we need to install it in our application.npm
