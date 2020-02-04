@@ -1,33 +1,69 @@
 ---
 template: SinglePost
-title: '#30daysofVue - Day 28 - Why NuxtJs?'
+title: '#30daysofVue - Day 29 - Dynamic components'
 status: Published
 date: 2020-01-23T14:59:02.614Z
 excerpt: >-
-  Why use Nuxt js?Nuxtjs solves the common problem that may arise when
-  developing your Vue applications. For example:Combining different javascript
-  and vue libraries optimally. Nuxt uses webpack with vue-loader and
-  babel-loader to bundle, code-split and minify your code.
+  Today I learned about a feature in Vue.js that allows you to load dynamic
+  components or conditionally loading Vue components. A very natural way to do
+  this is by using if-else to load components. But Vue provides a better way to
+  do this.
 categories:
   - category: Javascript
 meta:
   description: >-
-    Why use Nuxt js?Nuxtjs solves the common problem that may arise when
-    developing your Vue applications. For example:Combining different javascript
-    and vue libraries optimally. Nuxt uses webpack with vue-loader and
-    babel-loader to bundle, code-split and minify your code.
+    Today I learned about a feature in Vue.js that allows you to load dynamic
+    components or conditionally loading Vue components. A very natural way to do
+    this is by using if-else to load components. But Vue provides a better way
+    to do this.
   title: '#30daysofVue - Day 28 - Why NuxtJs'
 ---
-Why use **Nuxt js?**
+I missed a few days. But here I am back on track. 
 
-Nuxtjs solves the common problem that may arise when developing your Vue applications. For example:
+Today I learned about a feature in Vue.js that allows you to load dynamic components or conditionally loading Vue components. A very natural way to do this is by using if-else to load components. But Vue provides a better way to do this.
 
-**Combining different javascript and vue libraries optimally**. Nuxt uses webpack with vue-loader and babel-loader to bundle, code-split and minify your code.
+We can use `component` component with `v-bind:is` directive.
 
-**Code structure/organisation:**  As your application grows, it gets tough to manage your codebase without a proper organisation or code structure. Nuxt solves that by providing a standard folder structure that’s tried and tested for large scale applications.
+```
+<component v-bind:is="componentName"></component>
+```
 
-**SEO**: nuxt takes care of SEO by using server-side rendering for our Vue applications.
+Here **componentName** is the name of the component we want to render.
 
-**Speed**:  SSR increases the overall speed of our application because the server sends back the HTML instead of generating the HTML on the client-side.
+```
+<script>
+```
 
-Nuxt also provides us **production-ready configuration by default,** and if we need to change or enhance something, that is also pretty easy by just changing the nuxt.config.js
+```
+export default {
+```
+
+```
+  data() {
+```
+
+```
+    return {
+```
+
+```
+      componentName: 'textComponent',
+```
+
+```
+    }
+```
+
+```
+  }
+```
+
+```
+}
+```
+
+```
+</script>
+```
+
+By defining componentName data property we can set it to any component based on our requirement.
